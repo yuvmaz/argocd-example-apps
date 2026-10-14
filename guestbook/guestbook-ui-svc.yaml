@@ -4,7 +4,7 @@ metadata:
   name: guestbook-ui
 spec:
   ports:
-  - port: 90
+  - port: 80
     targetPort: 90
   selector:
     app: guestbook-ui
